@@ -1,4 +1,4 @@
-package com.youtube.in28minutes.microservices.camelmicroservicea.route.a;
+package com.youtube.in28minutes.microservices.camelmicroservicea.routes.a;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.slf4j.Logger;
@@ -18,7 +18,8 @@ import java.time.LocalDateTime;
  * - transformation
  * - log - escreve-los em um log
  */
-@Component
+
+//@Component //Comentando a anotação deixa a rota desabilitada
 public class MyFirstTimerRouter extends RouteBuilder {
 
     @Autowired

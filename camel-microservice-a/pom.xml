@@ -56,6 +56,13 @@
 			<version>2.14.0</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.apache.camel.springboot/camel-activemq-starter -->
+		<dependency>
+			<groupId>org.apache.camel.springboot</groupId>
+			<artifactId>camel-activemq-starter</artifactId>
+			<version>3.20.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

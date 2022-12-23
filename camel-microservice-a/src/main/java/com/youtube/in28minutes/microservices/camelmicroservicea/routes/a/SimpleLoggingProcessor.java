@@ -1,4 +1,4 @@
-package com.youtube.in28minutes.microservices.camelmicroservicea.route.a;
+package com.youtube.in28minutes.microservices.camelmicroservicea.routes.a;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
